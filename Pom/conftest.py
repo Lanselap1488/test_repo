@@ -1,9 +1,9 @@
 import allure
 from selenium import webdriver
+import pytest
 from selenium.webdriver.chrome.options import Options as chrome_Options
 from selenium.webdriver.firefox.options import Options as firefox_Options
 from .settings import BROWSER
-import pytest
 
 
 @pytest.fixture(scope='function')

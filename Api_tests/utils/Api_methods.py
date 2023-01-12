@@ -1,5 +1,5 @@
-import requests
 import dataclasses
+import requests
 
 
 @dataclasses.dataclass
@@ -11,9 +11,8 @@ class ApiMethods:
         print(req.json())
         return req
 
-
     @staticmethod
-    def get_user_by_id(domain, id):
-        req = requests.get(f'{domain}/message/{id}')
+    def get_user_by_id(domain, id_user):
+        req = requests.get(f'{domain}/message/{id_user}')
         print(req.json())
         return req

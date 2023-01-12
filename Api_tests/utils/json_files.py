@@ -9,3 +9,6 @@ class JsonFile:
                 "description": "very long description"
                 }
         return json
+
+    def sample_method(self):
+        pass

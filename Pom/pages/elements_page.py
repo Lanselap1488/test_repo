@@ -1,6 +1,5 @@
 from ..pages.base_page import BasePage
 from ..locators.locators_elements import *
-from selenium.webdriver.common.keys import Keys
 
 
 class ElementsPage(BasePage):
@@ -43,6 +42,3 @@ class ElementsPage(BasePage):
 
     def find_filled_address(self):
         return self.find_element(SUBMITED_ADDRESS)
-
-
-
